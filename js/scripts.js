@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 	/***************** Initiate Flexslider ******************/
 	$('.flexslider').flexslider({
-		animation: "slide"
+		animation: "slide", slideshowSpeed: 9000
 	});
 
 	/***************** Initiate Fancybox ******************/
@@ -31,7 +31,7 @@ $(document).ready(function() {
 	});
 
 	/***************** Tooltips ******************/
-    $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="tooltip"]').tooltip();
 
 	/***************** Nav Transformicon ******************/
 

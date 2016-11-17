@@ -318,5 +318,34 @@
 
 	}
 
-	@media screen and (max-width:320px) {
+	@media screen and (max-width:360px) {
+		.name{
+			font-size: 3em;
+			width: 100%;
+			line-height: 50px;
+			top: -260px;
+		}
+		.description, .description p{
+			width: 100%;
+			font-size: 1em;
+			line-height: 20px;
+		}
+		.btn-img-profile div:nth-child(1) {
+		    height: 100vh;
+		    top: -100vh;
+		}
+		.project_description {
+			height: 50px;
+			overflow: hidden;
+			line-height: 23px;
+		}
+		.link-main {
+			min-width: 100px;
+		}
+		.tech.col-md-2{
+			width: 50%;
+		}
 	}
+
+
+
